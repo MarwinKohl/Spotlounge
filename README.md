@@ -19,6 +19,8 @@ Die API, die wir für unsere Seite benutzen ist die [Spotify API](https://develo
 
 Wir benutzen eine Spotify API, die uns Zugriff auf Musik und Statistiken gewährt. Diese umfasst eine Bibliothek, bei der wir Künstler, Alben uns Song’s abrufen können. Diese gratis API kann von verschiedenen Plattformen genutzt werden.
 
+<center><img src="/Images/Spotify_Bild.png" alt="Logo von Spotlounge" height="250"></center>
+
 ---
 
 ### Zielsetzung
