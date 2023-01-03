@@ -3,13 +3,23 @@ _Von Marwin und Nicolaj_
 
 <br>
 
+### Was ist Spotlounge?
+
+Hier mit stellen wir unser Projekt vor, das sich um eine Musiklounge handelt, die sich mit einer Spotify API auseinandersetzt. [LifeAt](https://lifeat.io/) war unsere Inspiartion um auf diese Idee von Website zu kommen. Bei Spotlounge sollte man Musik von Spotify abspielen können oder nach neuen lieder suchen. Das ganze funktioniert dank der API, die Spotify zur vefügung stellt, User können sich dann auf der Website mit ihrem Spotify Premium Konto anmelden, sodass sie zugang zur Online Musiklounge bekomen.
+
+Unser Logo für Spotlounge:
+
+<center><img src="/Images/Logo.jpg" alt="Logo von Spotlounge" width="200" height="200"></center>
+
+---
+
 ### Zielsetzung
 
 Wir orientieren uns bei der Zielsetzung mit den [SMART](https://kommunalwiki.boell.de/index.php/SMART-Ziele#:~:text=SMART%20ist%20die%20Abkürzung%20für,attraktiv%2C%20realistisch%20und%20terminiert%20sein.)-Zielen. Hier bestimmen wir, was wir erreichen bzw. erlernen möchten, damit wir wissen, was man erreichen möchten.
 
 <br>
 
-**SMART-Ziele:**
+**SMART-Ziele:**  
 
 **S**: Spezifisch 
 - Wir möchten eine Online-Musiklounge entwickeln, die eine Spotify-API benutzt.
@@ -68,6 +78,5 @@ Bei uns sollte offen und ehrlich kommuniziert werden, damit man einander vertrau
 
 ---
 
-### Logo:
+Mitglieder:
 
-<img src="/Images/Logo.jpg" alt="Logo von Spotlounge" width="200" height="200">
