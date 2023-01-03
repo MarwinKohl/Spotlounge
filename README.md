@@ -13,6 +13,14 @@ Unser Logo für Spotlounge:
 
 ---
 
+### Spotify API:
+
+Die API, die wir für unsere Seite benutzen ist die [Spotify API](https://developer.spotify.com/discover/)
+
+Wir benutzen eine Spotify API, die uns Zugriff auf Musik und Statistiken gewährt. Diese umfasst eine Bibliothek, bei der wir Künstler, Alben uns Song’s abrufen können. Diese gratis API kann von verschiedenen Plattformen genutzt werden.
+
+---
+
 ### Zielsetzung
 
 Wir orientieren uns bei der Zielsetzung mit den [SMART](https://kommunalwiki.boell.de/index.php/SMART-Ziele#:~:text=SMART%20ist%20die%20Abkürzung%20für,attraktiv%2C%20realistisch%20und%20terminiert%20sein.)-Zielen. Hier bestimmen wir, was wir erreichen bzw. erlernen möchten, damit wir wissen, was man erreichen möchten.
