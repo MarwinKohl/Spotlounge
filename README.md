@@ -30,14 +30,17 @@ Wir orientieren uns bei der Zielsetzung mit den [SMART](https://kommunalwiki.boe
 
 ### Kanban-Board
 
-| To-Do                                     | Doing | Testing | Done |
-|-------------------------------------------|-------|---------|------|
-| Idee und Konzept erstellen.               |       |         |      |
-| Sich über Spotify API informieren         |       |         |      |
-| Wireframe Erstellen                       |       |         |      |
-| Website umsetzen mit HTML, CSS und JS     |       |         |      |
-| API Hinzufügen                            |       |         |      |
+| To-Do                                     | Doing | Testing | Done | Termine |
+|-------------------------------------------|-------|---------|------|---------|
+| Idee und Konzept erstellen.               |       |         |      |         |
+| Sich über Spotify API informieren         |       |         |      |         |
+| Wireframe Erstellen                       |       |         |      |         |
+| Website umsetzen mit HTML, CSS und JS     |       |         |      |         |
+| API Hinzufügen                            |       |         |      |         |
 | Website Testen und sichern das alles geht |
+
+Marwin = (X)
+Nicolaj = (Y)
 
 ---
 
