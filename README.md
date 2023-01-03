@@ -1,4 +1,4 @@
-# Spotlounge
+# Spotlounge 
 _Von Marwin und Nicolaj_
 
 <br>
@@ -64,4 +64,10 @@ Alle hören einander zu und niemand wird im Stich gelassen. Alle, die was zu sag
 
 **Kommunikation**
 
-Bei uns sollte offen und ehrlich kommuniziert werden, damit man einander vertrauen kann. Bei unklarheiten sollte man miteinander darüber reden. 
+Bei uns sollte offen und ehrlich kommuniziert werden, damit man einander vertrauen kann. Bei unklarheiten sollte man miteinander darüber reden.
+
+---
+
+### Logo:
+
+<img src="/Images/Logo.jpg" alt="Logo von Spotlounge" width="200" height="200">
