@@ -3,7 +3,7 @@ _Von Marwin und Nicolaj_
 
 <br>
 
-###Zielsetzung
+### Zielsetzung
 
 Wir orientieren uns bei der Zielsetzung mit den [SMART](https://kommunalwiki.boell.de/index.php/SMART-Ziele#:~:text=SMART%20ist%20die%20Abkürzung%20für,attraktiv%2C%20realistisch%20und%20terminiert%20sein.)-Zielen. Hier bestimmen wir, was wir erreichen bzw. erlernen möchten, damit wir wissen, was man erreichen möchten.
 
@@ -28,7 +28,7 @@ Wir orientieren uns bei der Zielsetzung mit den [SMART](https://kommunalwiki.boe
 
 ---
 
-**Kanban-Board:**
+### Kanban-Board
 
 | To-Do                                     | Doing | Testing | Done |
 |-------------------------------------------|-------|---------|------|
@@ -41,5 +41,24 @@ Wir orientieren uns bei der Zielsetzung mit den [SMART](https://kommunalwiki.boe
 
 ---
 
-**Teamkodex:**
+### Teamkodex
 
+**Respekt**
+
+Jede Person hat einander zu respektieren. Alle meinungen dürfen geäussert werden und alle haben das gleiche Recht.
+
+**Pünktlichkeit**
+
+Jede Person hat es nötig, sich an die Termine und Abmachungen zu halten, die man vereinbart hat.
+
+**Recht**
+
+Jede Person hat das Recht auf die nötigen Ressourcen, die man benötigt, seine Arbeit zu erledigen. 
+
+**Aufmerksamkeit**
+
+Alle hören einander zu und niemand wird im Stich gelassen. Alle, die was zu sagen haben, warten bis die sprechende Person sein Anliegen beendet haben, bis die sich melden kann. Jede Person verdient die gleiche Aufmerksamkeit.
+
+**Kommunikation**
+
+Bei uns sollte offen und ehrlich kommuniziert werden, damit man einander vertrauen kann. Bei unklarheiten sollte man miteinander darüber reden. 
