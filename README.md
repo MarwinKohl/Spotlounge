@@ -80,10 +80,10 @@ Bei uns sollte offen und ehrlich kommuniziert werden, damit man einander vertrau
 
 ### Mitglieder:
 
-<img src="/Images/Kohl_Marwin_small.jpg" alt="Marwin Kohl Mitglied" width="275" height="200">
+<img src="/Images/Kohl_Marwin_small.jpg" alt="Marwin Kohl Mitglied" width="290" height="200">
 
 **Marwin Kohl**
 
-<img src="/Images/Haueter_Nicolaj_small.jpg" alt="Nicolaj Haueter Mitglied" width="275" height="200">
+<img src="/Images/Haueter_Nicolaj_small.jpg" alt="Nicolaj Haueter Mitglied" width="290" height="200">
 
 **Nicolaj Haueter** 
