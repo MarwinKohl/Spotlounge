@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from "react";
+import { useEffect, useState } from "react";
 import axios from 'axios'
 
 export default function useAuth(code) {
@@ -11,7 +11,7 @@ export default function useAuth(code) {
         axios.post('http://localhost:3000/login', {
             code,
         })
-        .then((res)=>{
+        .then(res =>{
             console.log(res.data)
             window.history.pushState({}, null, "/")
         })
