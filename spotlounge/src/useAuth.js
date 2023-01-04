@@ -2,9 +2,9 @@ import React, { useEffect, useState } from "react";
 import axios from 'axios'
 
 export default function useAuth(code) {
-    const [access_token, setAccessToken] = useState()
-    const [refresh_token, setRefreshToken] = useState()
-    const [expires_in, setExpiresIn] = useState()
+    const [accessToken, setAccessToken] = useState()
+    const [refreshToken, setRefreshToken] = useState()
+    const [expiresIn, setExpiresIn] = useState()
 
 
     useEffect(()=>{
@@ -13,6 +13,7 @@ export default function useAuth(code) {
         })
         .then((res)=>{
             console.log(res.data)
+            window.history.pushState({}, null, "/")
         })
         .catch(() => {
             window.location = '/'
