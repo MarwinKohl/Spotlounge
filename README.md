@@ -50,14 +50,14 @@ Wir orientieren uns bei der Zielsetzung mit den [SMART](https://kommunalwiki.boe
 
 ### Kanban-Board
 
-| To-Do                                     | Doing | Testing | Done | Termine |
-|-------------------------------------------|-------|---------|------|---------|
-| Idee und Konzept erstellen.               |       |         |      |         |
-| Sich über Spotify API informieren         |       |         |      |         |
-| Wireframe Erstellen                       |       |         |      |         |
-| Website umsetzen mit HTML, CSS und JS     |       |         |      |         |
-| API Hinzufügen                            |       |         |      |         |
-| Website Testen und sichern das alles geht |
+| Themen                                    | To-Do | Doing | Testing | Done  | Termine |
+|-------------------------------------------|-------|-------|---------|------ |---------|
+| Idee und Konzept erstellen.               |       |       |         |  x/y  |03.01.23 |
+| Sich über Spotify API informieren         |       |       |         |  x/y  |03.01.23 |
+| Wireframe Erstellen                       |       |       |         |   x   |04.01.23 |
+| Website umsetzen mit HTML, CSS und JS     |  x/y  |       |         |       |04/06.01.23|
+| API Hinzufügen                            |       |       |         |   y   |05.01.23 |
+| Website Testen und sichern das alles geht |       |  x/y  |         |       |05.01.23 |  
 
 Marwin = (X)
 Nicolaj = (Y)
