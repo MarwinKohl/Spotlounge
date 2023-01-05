@@ -8,6 +8,7 @@ export default function Player({ accessToken, trackUri }) {
 
   if (!accessToken) return null
   return (
+    
     <SpotifyPlayer
       token={accessToken}
       showSaveIcon
@@ -17,5 +18,6 @@ export default function Player({ accessToken, trackUri }) {
       play={play}
       uris={trackUri ? [trackUri] : []}
     />
+  
   )
 }

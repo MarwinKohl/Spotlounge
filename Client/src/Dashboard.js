@@ -81,6 +81,9 @@ export default function Dashboard({ code }) {
         value={search}
         onChange={e => setSearch(e.target.value)}
       />
+
+
+      
       <div className="flex-grow-1 my-2" style={{ overflowY: "auto" }}>
         {searchResults.map(track => (
           <TrackSearchResult
@@ -88,6 +91,9 @@ export default function Dashboard({ code }) {
             key={track.uri}
             chooseTrack={chooseTrack}
           />
+
+          
+          
         ))}
         {searchResults.length === 0 && (
           <div className="text-left" style={{ whiteSpace: "pre" }}>
@@ -95,9 +101,12 @@ export default function Dashboard({ code }) {
           </div>
         )}
       </div>
+      
+
       <div>
         <Player accessToken={accessToken} trackUri={playingTrack?.uri} />
       </div>
+      
     </Container>
   )
 }
