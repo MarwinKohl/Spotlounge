@@ -74,7 +74,7 @@ export default function Dashboard({ code }) {
   }, [search, accessToken])
 
   return (
-    <Container className="d-flex flex-column py-2" style={{ height: "100vh" }}>
+    <Container className="d-flex flex-column py-2" style={{ height: "100vh"}}>
       <Form.Control
         type="search"
         placeholder="Search Songs/Artists"
@@ -90,7 +90,7 @@ export default function Dashboard({ code }) {
           />
         ))}
         {searchResults.length === 0 && (
-          <div className="text-center" style={{ whiteSpace: "pre" }}>
+          <div className="text-left" style={{ whiteSpace: "pre" }}>
             {lyrics}
           </div>
         )}
