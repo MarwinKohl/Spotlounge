@@ -2,6 +2,7 @@ import React from 'react';
 import { Container } from "react-bootstrap"
 import bgimage1 from './HintergrundVid/Mountains.mp4';
 import bgimage2 from './HintergrundVid/Jaegerhütte.mp4';
+import logo from './Images/Logo.jpg';
 
 const backgroundVideos = [bgimage1, bgimage2];
 const randomIndex = Math.floor(Math.random() * backgroundVideos.length);
@@ -16,17 +17,23 @@ export default function Login() {
       <Container
         className="d-flex justify-content-center align-items-center"
         style={{ minHeight: "100vh", position: "relative" }}
-      >     
-        <video autoPlay loop muted>
-          <source src={randomVideo} type="video/mp4" />
-        </video>
-        <a
-          className="btn btn-success btn-lg login-button"
-          href={AUTH_URL}
-          style={{ position: "absolute" }}
-        >
-          Login with Spotify
-        </a>
+      >
+        <div style={{ position: "relative" }}>
+          <div style={{ position: "fixed", zIndex: "1", top: "0", left: "0", width: "100%" }}>
+          <img src={logo} alt="Logo" height="50" width="50" style={{ position: "fixed", zIndex: "1", top: "0", left: "0"}} />
+            <h1 style={{ color: "white", textAlign: "center", padding: "10px" }}>Spotlounge</h1>
+          </div>
+          <video autoPlay loop muted style={{ position: "fixed", zIndex: "-1", top: "0", left: "0", overflowX: "auto" }} height="100%" width="100%">
+            <source src={randomVideo} type="video/mp4" />
+          </video>
+            <a
+                className="btn btn-success btn-lg login-button"
+                href={AUTH_URL}
+                style={{ position: "relative", display: "flex", justifyContent: "center", alignItems: "center" }}
+              >
+            Login with Spotify
+          </a>
+        </div>
       </Container>
     </div>
   );
