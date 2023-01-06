@@ -5,8 +5,16 @@ import TrackSearchResult from "./TrackSearchResult"
 import { Container, Form } from "react-bootstrap"
 import SpotifyWebApi from "spotify-web-api-node"
 import axios from "axios"
-import bgimage from './HintergrundVid/Jaegerhütte.mp4';
+import bgimage1 from './HintergrundVid/Mountains.mp4';
+import bgimage2 from './HintergrundVid/Jaegerhütte.mp4';
+import bgimage3 from './HintergrundVid/Night Sky.mp4';
+import bgimage4 from './HintergrundVid/Anime.mp4';
+import bgimage5 from './HintergrundVid/blackcat.mp4';
 import Clock from './Clock.js';
+
+const backgroundVideos = [bgimage1, bgimage2, bgimage3, bgimage4, bgimage5];
+const randomIndex = Math.floor(Math.random() * backgroundVideos.length);
+const randomVideo = backgroundVideos[randomIndex];
 
 const spotifyApi = new SpotifyWebApi({
   clientId: "d191edcba8b84b3a939f442b560fe205",
@@ -108,7 +116,7 @@ export default function Dashboard({ code }) {
           <h1>{time}</h1>
         </Clock>
   <video autoPlay loop muted style={{ position: "fixed", zIndex: "-1", top: "0", left: "0", overflowX: "auto" }} height="100%" width="100%">
-    <source src={bgimage} type="video/mp4" />
+    <source src={randomVideo} type="video/mp4" />
   </video>
   {searchResults.length === 0 && (
     <div className="text-left" style={{ whiteSpace: "pre", color: "white",background: "rgba(0, 0, 0,0.7)" }}>
