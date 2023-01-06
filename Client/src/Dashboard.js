@@ -5,6 +5,8 @@ import TrackSearchResult from "./TrackSearchResult"
 import { Container, Form } from "react-bootstrap"
 import SpotifyWebApi from "spotify-web-api-node"
 import axios from "axios"
+import bgimage from './HintergrundVid/Jaegerhütte.mp4';
+import Clock from './Clock.js';
 
 const spotifyApi = new SpotifyWebApi({
   clientId: "d191edcba8b84b3a939f442b560fe205",
@@ -16,12 +18,21 @@ export default function Dashboard({ code }) {
   const [searchResults, setSearchResults] = useState([])
   const [playingTrack, setPlayingTrack] = useState()
   const [lyrics, setLyrics] = useState("")
+  const [time, setTime] = useState(new Date().toLocaleTimeString())
 
   function chooseTrack(track) {
     setPlayingTrack(track)
     setSearch("")
     setLyrics("")
   }
+
+   useEffect(() => {
+    const interval = setInterval(() => {
+      setTime(new Date().toLocaleTimeString())
+    }, 1000)
+
+    return () => clearInterval(interval)
+  }, [])
 
   useEffect(() => {
     if (!playingTrack) return
@@ -82,27 +93,30 @@ export default function Dashboard({ code }) {
         onChange={e => setSearch(e.target.value)}
       />
 
-
       
-      <div className="flex-grow-1 my-2" style={{ overflowY: "auto" }}>
+      <div className="flex-grow-1 my-2" style={{ overflowY: "auto", color:"white"  }}>
         {searchResults.map(track => (
           <TrackSearchResult
             track={track}
             key={track.uri}
             chooseTrack={chooseTrack}
           />
-
-          
-          
         ))}
-        {searchResults.length === 0 && (
-          <div className="text-left" style={{ whiteSpace: "pre" }}>
-            {lyrics}
-          </div>
-        )}
-      </div>
-      
 
+       <div style={{ position: "relative"}}>
+        <Clock>
+          <h1>{time}</h1>
+        </Clock>
+  <video autoPlay loop muted style={{ position: "fixed", zIndex: "-1", top: "0", left: "0", overflowX: "auto" }} height="100%" width="100%">
+    <source src={bgimage} type="video/mp4" />
+  </video>
+  {searchResults.length === 0 && (
+    <div className="text-left" style={{ whiteSpace: "pre", color: "white",background: "rgba(0, 0, 0,0.7)" }}>
+      {lyrics}
+    </div>
+  )}
+</div>
+      </div>
       <div>
         <Player accessToken={accessToken} trackUri={playingTrack?.uri} />
       </div>
