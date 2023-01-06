@@ -5,9 +5,11 @@ import bgimage2 from './HintergrundVid/Jaegerhütte.mp4';
 import bgimage3 from './HintergrundVid/Night Sky.mp4';
 import bgimage4 from './HintergrundVid/Anime.mp4';
 import bgimage5 from './HintergrundVid/blackcat.mp4';
+import bgimage6 from './HintergrundVid/spirited.mp4';
+import bgimage7 from './HintergrundVid/animeroom.mp4';
 import logo from './Images/Logo.jpg';
 
-const backgroundVideos = [bgimage1, bgimage2, bgimage3, bgimage4, bgimage5];
+const backgroundVideos = [bgimage1, bgimage2, bgimage3, bgimage4, bgimage5, bgimage6, bgimage7];
 const randomIndex = Math.floor(Math.random() * backgroundVideos.length);
 const randomVideo = backgroundVideos[randomIndex];
 
