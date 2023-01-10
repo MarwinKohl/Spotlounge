@@ -117,11 +117,11 @@ export default function Dashboard({ code }) {
         <Clock>
           <h1>{time}</h1>
         </Clock>
-  <video autoPlay loop muted style={{ position: "fixed", zIndex: "-1", top: "0", left: "0", overflowX: "auto" }} height="100%" width="100%">
+  <video autoPlay loop muted style={{ position: "fixed", zIndex: "-1", top: "0", left: "0", right: "0", width:"100%", height: "100%", objectFit: "cover" }}>
     <source src={randomVideo} type="video/mp4" />
   </video>
   {searchResults.length === 0 && (
-    <div className="text-left" style={{ whiteSpace: "pre", color: "white",background: "rgba(0, 0, 0,0.7)" }}>
+    <div className="text-left" style={{ whiteSpace: "pre", color: "white",background: "rgba(0, 0, 0,0.5)" }}>
       {lyrics}
     </div>
   )}
