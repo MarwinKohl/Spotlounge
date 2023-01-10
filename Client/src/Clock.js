@@ -1,7 +1,7 @@
 const Clock = () => {
     let time = new Date().toLocaleTimeString();
     return (
-      <div>
+      <div >
         <h1>{time}</h1>
       </div>
     
