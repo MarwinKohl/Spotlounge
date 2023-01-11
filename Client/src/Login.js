@@ -12,6 +12,15 @@ import "./css/Login.css"
 const backgroundVideos = [bgimage1, bgimage2, bgimage3, bgimage4, bgimage5, bgimage6, bgimage7];
 const randomIndex = Math.floor(Math.random() * backgroundVideos.length);
 const randomVideo = backgroundVideos[randomIndex];
+const renderFooter = () => {
+  return (
+    <footer className="footer">
+      <div className="container">
+        <p>Copyright © Spotlounge 2023</p>
+      </div>
+    </footer>
+  )
+}
 
 const AUTH_URL = "https://accounts.spotify.com/authorize?client_id=d191edcba8b84b3a939f442b560fe205&response_type=code&redirect_uri=http://localhost:3000&scope=streaming%20user-read-email%20user-read-private%20user-library-read%20user-library-modify%20user-read-playback-state%20user-modify-playback-state"
 
@@ -28,6 +37,7 @@ export default function Login() {
       <a className="btn btn-success btn-lg login-button1" href={AUTH_URL}>
         Login with Spotify
       </a>
+    {renderFooter()}
     </div>
   );
 }
